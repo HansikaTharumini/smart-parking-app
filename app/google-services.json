@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "224112289731",
+    "firebase_url": "https://parknow-4c052.firebaseio.com",
+    "project_id": "parknow-4c052",
+    "storage_bucket": "parknow-4c052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224112289731:android:99834e40df13ebe841bf76",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224112289731-d2shc9gdeg43vbtsnkeegb5ul36uk7a4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "efd9e79f652766836b07d5540f59e5c40cfcb265"
+          }
+        },
+        {
+          "client_id": "224112289731-ne2o2mtjqj251h166q4heb23sa2mf1k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV9b_p9b68ooI9u5ftTWcW0Y_NGQvBoBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224112289731-ne2o2mtjqj251h166q4heb23sa2mf1k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

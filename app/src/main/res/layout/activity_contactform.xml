@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07024b"
+    tools:context=".contactform">
+
+    <ImageView
+        android:src="@drawable/park"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center"
+        android:id="@+id/mainimg"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Contact Us"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:id="@+id/contact"/>
+    
+    <ImageView
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:id="@+id/phone"
+        android:src="@drawable/ic_phone"
+        android:layout_marginTop="300sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="041 2237544"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginTop="300sp"
+        android:id="@+id/phonnum"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/phone"
+        android:layout_toRightOf="@id/phone"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:textSize="13sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:id="@+id/phonedetail"
+        android:layout_below="@id/phonnum"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/phone"
+        android:layout_toRightOf="@+id/phone"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:id="@+id/message"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/ic_forum_black_24dp"
+        android:layout_alignBottom="@+id/phone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:id="@+id/mail"
+        android:src="@drawable/ic_mail_outline_black_24dp"
+        android:layout_marginTop="380sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ParkNowapplication@gmail.com"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginTop="380sp"
+        android:id="@+id/email"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/mail"
+        android:layout_toRightOf="@id/mail"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="13sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:id="@+id/emaildetail"
+        android:layout_below="@id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/mail"
+        android:layout_toRightOf="@+id/mail"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+
+
+
+</RelativeLayout>

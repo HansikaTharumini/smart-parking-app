@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#07024b"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.feedbackform">
+
+    <com.hsalf.smilerating.SmileRating
+        android:id="@+id/smile_rating"
+        android:layout_width="367dp"
+        android:layout_height="76dp"
+        android:layout_marginVertical="75dp" />
+
+    <TextView
+        android:id="@+id/feedback"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="306dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/smile_rating"
+        android:fontFamily="sans-serif-light"
+        android:text="Enter your feedback here...."
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/feedbacktxt"
+        android:layout_width="367dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/feedback"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_marginHorizontal="84dp"
+        android:layout_marginVertical="390dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/but_log"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

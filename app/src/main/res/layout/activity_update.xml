@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#07024b"
+    android:layout_height="match_parent"
+    tools:context=".update">
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="416dp"
+            android:layout_height="742dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-32dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="68dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleviewbooking"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="75dp"
+                android:layout_marginVertical="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text=" Booking Update"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/bookingidtext"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="136dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Booking Id"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/bookingid"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/searchbtn"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="69dp"
+                android:layout_marginVertical="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/but_log"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Search"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/type"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="136dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Vehical Type"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/typebox"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#fff"
+                android:textSize="17sp"
+               />
+
+            <TextView
+                android:id="@+id/number"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="265dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Vehical Number"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/numberbox"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#fff"
+                android:textSize="17sp"
+               />
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="136dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Date"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/datebox"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="date"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:focusable="false"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/timefrom"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="306dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Start Time "
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/fromtime"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="time"
+                android:focusable="false"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/timeto"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="306dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="End Time"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/totime"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="time"
+                android:focusable="false"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/slot"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="306dp"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Slot Number"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/slotbox"
+                android:layout_width="355dp"
+                android:layout_height="35dp"
+                android:background="@drawable/textboxnew"
+                android:fontFamily="sans-serif-light"
+                android:inputType="time"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+            <Button
+                android:id="@+id/updatebtn"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="69dp"
+                android:layout_marginVertical="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/but_log"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Update"
+                android:visibility="invisible"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

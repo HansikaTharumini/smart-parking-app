@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupform"
+    android:background="@drawable/form_back">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="378dp"
+                android:layout_height="571dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nic"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="136dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="NIC Number"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/nictxt"
+                    android:layout_width="384dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/textbox"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="136dp"
+                    android:layout_height="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Full Name"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/nametxt"
+                    android:layout_width="384dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/textbox"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/Contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Contact Number"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/contacttxt"
+                    android:layout_width="384dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textbox"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Email"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/emailtxt"
+                    android:layout_width="384dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textbox"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textEmailSubject"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Password"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/passwordtxt"
+                    android:layout_width="384dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textbox"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPassword"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Confirm Password"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/confirmtxt"
+                    android:layout_width="384dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/textbox"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPassword"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/signbutton"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="35dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/but_log"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="70dp"
+                    android:text="Sign Up"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="19sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+  </RelativeLayout>
